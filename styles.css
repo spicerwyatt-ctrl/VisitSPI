@@ -196,7 +196,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	animation: bottleFly2 3s linear infinite;
+	animation: bottleFly2 2s linear infinite;
 }
 
 #ball {
@@ -457,7 +457,7 @@ article {
 		transform: translate X(0) rotate(0deg);
 	}
 	to {
-		transform: translateX(-3000px) rotate(-1080deg);
+		transform: translateX(-3000px) rotate(1080deg);
 	}
 }
 
