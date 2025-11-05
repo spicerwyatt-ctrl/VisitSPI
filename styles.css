@@ -185,18 +185,18 @@ html {
 	animation: bottleFly 3s linear infinite;
 }
 
-#bottle2 {
+#bird {
 	position: fixed;
 	top: 1px;
 	right: -200px;
 	width: 120px;
 	height: 300px;
 	z-index: -6;
-	background-image: url("images/bottle.png");
+	background-image: url("images/bird.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	animation: bottleFly2 2s linear infinite;
+	animation: birdFly 2s linear infinite;
 }
 
 #ball {
@@ -452,7 +452,7 @@ article {
 	}
 }
 
-@keyframes bottleFly2 {
+@keyframes birdFly {
 	from {
 		transform: translate X(0) rotate(0deg);
 	}
@@ -466,7 +466,7 @@ article {
 		transform: translateX(0) rotate(0deg);
 	}
 	to {
-		transform: translateX(3000px) rotate(-1080deg);
+		transform: translateX(-3000px) rotate(-1080deg);
 	}
 }
 
