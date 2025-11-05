@@ -144,6 +144,20 @@ html {
 	animation: girlsUp 10s ease-in-out infinite alternate;
 }
 
+#girlsTop {
+	position: fixed;
+	bottom: -190px;
+	left: 50px;
+	width: 600px;
+	height: 420px;
+	z-index: 1000;
+	background-image: url("images/sandygirls.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+	animation: girlsDown 10s ease-in-out infinite alternate;
+}
+
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -350,6 +364,16 @@ article {
 	}
 	to {
 		transform: translateY(-100px);
+		opacity: 1;
+	}
+}
+@keyframes girlsDown {
+	from {
+		transform: translateY(-400px);
+		opacity: .8;
+	}
+	to {
+		transform: translateY(100px);
 		opacity: 1;
 	}
 }
