@@ -192,7 +192,7 @@ html {
 	width: 120px;
 	height: 300px;
 	z-index: -6;
-	background-image: url("images/airplane.png");
+	background-image: url("images/airplane.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
