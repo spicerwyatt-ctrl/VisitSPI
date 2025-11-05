@@ -136,7 +136,7 @@ html {
 	right: 50px;
 	width: 600px;
 	height: 420px;
-	z-index: 150;
+	z-index: 250;
 	background-image: url("images/beachgirls.png");
 	background-repeat: no-repeat;
 	background-size: contain;
