@@ -158,6 +158,17 @@ html {
 	animation: girlsUp 5s ease-in-out infinite alternate;
 }
 
+#umbrella {
+	position: fixed;
+	top: 100px;
+	right: -200px;
+	width: 200px;
+	height: 200px;
+	z-index: -7;
+	background-image: url("runawayumbrella.png");
+	background-size: contain;
+	background-position: center;
+	animation: umbrellaFly 12s linear infinite;
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -376,6 +387,15 @@ article {
 	to {
 		transform: translateY(100px);
 		opacity: 1;
+	}
+}
+
+@keyframes umbrellaFly (
+	from {
+		transform: translareX(0);
+	}
+	to {
+		transform: translateX(-3000px)
 	}
 }
 
