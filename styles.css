@@ -468,10 +468,10 @@ article {
 
 @keyframes planeFly {
 	from {
-		transform: translate X(0) rotate(0deg);
+		transform: translate X(0);
 	}
 	to {
-		transform: translateX(2300px) rotate(1080deg);
+		transform: translateX(2300px);
 	}
 }
 
