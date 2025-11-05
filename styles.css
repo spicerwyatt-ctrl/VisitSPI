@@ -193,10 +193,10 @@ html {
 	height: 300px;
 	z-index: -6;
 	background-image: url("images/bottle.png");
+	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
 	animation: bottleFly2 3s linear infinite;
-	background-color: rgba(255,0,0,0.5);
 }
 	
 h3 {
