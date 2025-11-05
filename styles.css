@@ -133,7 +133,7 @@ html {
 #girls {
 	position: fixed;
 	bottom: -190px;
-	right: 35px;
+	right: 70px;
 	width: 600px;
 	height: 420px;
 	z-index: 1000;
@@ -147,7 +147,7 @@ html {
 #girlsLeft {
 	position: fixed;
 	bottom: -190px;
-	left: 35px;
+	left: 70px;
 	width: 600px;
 	height: 420px;
 	z-index: 1000;
