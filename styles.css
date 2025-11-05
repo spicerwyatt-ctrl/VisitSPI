@@ -441,7 +441,7 @@ article {
 
 @keyframes bottleFly2 {
 	from {
-		transform: translate X(-2300px) rotate(0deg);
+		transform: translate X(2300px) rotate(0deg);
 	}
 	to {
 		transform: translateX(0px) rotate(-1080deg);
