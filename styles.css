@@ -440,10 +440,10 @@ article {
 
 @keyframes bottleFly2 {
 	from {
-		transform: translateX(2300px) rotate(0deg);
+		transform: translateX(0) rotate(0deg);
 	}
 	to {
-		transform: translateX(0px) rotate(-1080deg);
+		transform: translateX(-3000px) rotate(-1080deg);
 	}
 }
 
