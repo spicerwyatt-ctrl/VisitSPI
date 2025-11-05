@@ -168,7 +168,7 @@ html {
 	background-image: url("images/runawayumbrella.png");
 	background-size: contain;
 	background-position: center;
-	animation: umbrellaFly 4s linear infinite;
+	animation: umbrellaFly 4.5s linear infinite;
 }
 
 #bottle {
@@ -196,7 +196,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	animation: birdFly 4s linear infinite;
+	animation: birdFly 3s linear infinite;
 }
 
 #ball {
