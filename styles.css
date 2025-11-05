@@ -165,11 +165,10 @@ html {
 	width: 200px;
 	height: 200px;
 	z-index: -7;
-	background-image: url("runawayumbrella.png");
+	background-image: url("images/runawayumbrella.png");
 	background-size: contain;
 	background-position: center;
-	animation: umbrellaFly 12s linear infinite;
-	background-color: rgba(255,0,0,0.4);
+	animation: umbrellaFly 4s linear infinite;
 }
 	
 h3 {
