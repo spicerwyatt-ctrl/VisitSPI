@@ -144,7 +144,7 @@ html {
 	animation: girlsUp 10s ease-in-out infinite alternate;
 }
 
-#girlsTop {
+#girlsLeft {
 	position: fixed;
 	bottom: -190px;
 	left: 50px;
@@ -155,7 +155,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	animation: girlsDown 10s ease-in-out infinite alternate;
+	animation: girlsUp 10s ease-in-out infinite alternate;
 }
 
 h3 {
