@@ -182,7 +182,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	animation: bottleFly 3s linear infinite;
+	animation: bottleFly 3.7s linear infinite;
 }
 
 #bird {
@@ -196,7 +196,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	animation: birdFly 3s linear infinite;
+	animation: birdFly 3.4s linear infinite;
 }
 
 #ball {
