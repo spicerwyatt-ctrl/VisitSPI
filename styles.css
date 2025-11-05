@@ -184,6 +184,20 @@ html {
 	background-position: center;
 	animation: bottleFly 3s linear infinite;
 }
+
+#bottle2 {
+	position: fixed;
+	top: 400px;
+	right: -200px;
+	width: 120px;
+	height: 300px;
+	z-index: -6;
+	background-image: url("images/bottle.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	animation: bottleFly 3s linear infinite;
+}
 	
 h3 {
 	font-family: "Berkshire Swash";
@@ -423,6 +437,16 @@ article {
 		transform: translateX(2300px) rotate(1080deg);
 	}
 }
+
+@keyframes bottleFly2 {
+	from {
+		transform: translate X(-2300) rotate(0deg);
+	}
+	to {
+		transform: translateX(0px) rotate(-1080deg);
+	}
+}
+
 
 
 	
