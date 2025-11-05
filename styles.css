@@ -166,6 +166,8 @@ html {
 	margin: 30px auto;
 	animation: spinBottle 3s ease-in-out infinite;
 	transform-origin: center;
+}
+
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -389,17 +391,17 @@ article {
 
 @keyframes spinBottle {
 	from {
-		transform: rotate(0deg) scale(.8)
+		transform: rotate(0deg) scale(.8);
 		opacity: 0;
 	}
 	25% {
 		opacity: 1;
 	}
 	50% {
-		transform: rotate(720deg) scale(.8)
+		transform: rotate(720deg) scale(.8);
 	}
 	to {
-		transform: rotate(1440deg) scale(1)
+		transform: rotate(1440deg) scale(1);
 	}
 }
 	
