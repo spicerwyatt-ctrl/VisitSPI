@@ -158,18 +158,6 @@ html {
 	animation: girlsUp 10s ease-in-out infinite alternate;
 }
 
-#bottle {
-	position: absolute;
-	width: 150px;
-	height: auto;
-	z-index: 200;
-	background-image: url("images/bottle.png");
-	display: block;
-	margin: 30px auto;
-	animation: spinBottle 3s ease-in-out infinite;
-	transform-origin: center;
-}
-
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -391,19 +379,5 @@ article {
 	}
 }
 
-@keyframes spinBottle {
-	from {
-		transform: rotate(0deg) scale(.8);
-		opacity: 0;
-	}
-	25% {
-		opacity: 1;
-	}
-	50% {
-		transform: rotate(720deg) scale(.8);
-	}
-	to {
-		transform: rotate(1440deg) scale(1);
-	}
-}
+
 	
