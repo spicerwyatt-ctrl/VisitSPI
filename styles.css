@@ -170,6 +170,19 @@ html {
 	background-position: center;
 	animation: umbrellaFly 4s linear infinite;
 }
+
+#bottle {
+	position: fixed;
+	top: 80px;
+	left: -200px;
+	width: 120px;
+	height: 300px;
+	z-index: -6;
+	background-image: url("images/bottle.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	animation: bottleFly 12s linear infinite;
 	
 h3 {
 	font-family: "Berkshire Swash";
@@ -398,6 +411,15 @@ article {
 	}
 	to {
 		transform: translateX(-3000px);
+	}
+}
+
+@keyframes spinBottle {
+	from {
+		transform: translate X(0) rotate(0deg);
+	}
+	to {
+		transform: translateX(2300px) rotate(1080deg);
 	}
 }
 
