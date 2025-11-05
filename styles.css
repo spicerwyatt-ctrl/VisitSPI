@@ -191,11 +191,11 @@ html {
 	left: -200px;
 	width: 360px;
 	height: 900px;
-	z-index: -8;
+	z-index: 4;
 	background-image: url("images/airplane.webp");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	background-position: top;
 	animation: planeFly 2.8s linear infinite;
 }
 
