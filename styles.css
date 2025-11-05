@@ -187,7 +187,7 @@ html {
 
 #plane {
 	position: fixed;
-	top: 1px;
+	top: -5px;
 	left: -200px;
 	width: 360px;
 	height: 900px;
