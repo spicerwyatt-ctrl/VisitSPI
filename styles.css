@@ -196,7 +196,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	animation: birdFly 2s linear infinite;
+	animation: birdFly 4s linear infinite;
 }
 
 #ball {
