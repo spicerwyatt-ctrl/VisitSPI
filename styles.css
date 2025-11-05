@@ -141,7 +141,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	animation: girlsUp 10s ease-in-out 1 infinite;
+	animation: girlsUp 10s ease-in-out infinite;
 }
 
 h3 {
