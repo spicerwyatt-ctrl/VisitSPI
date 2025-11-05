@@ -141,7 +141,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	animation: girlsUp 10s ease-in-out infinite alternate;
+	animation: girlsUp 5s ease-in-out infinite alternate;
 }
 
 #girlsLeft {
