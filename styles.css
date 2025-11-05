@@ -179,6 +179,7 @@ html {
 	height: 300px;
 	z-index: -6;
 	background-image: url("images/bottle.png");
+	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 	animation: bottleFly 3s linear infinite;
