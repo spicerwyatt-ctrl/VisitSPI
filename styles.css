@@ -130,6 +130,20 @@ html {
 	animation: slideWave2 3.25s ease-in-out 1 backwards;
 }
 
+#girls {
+	position: fixed;
+	bottom: -190;
+	right: 50px;
+	width: 600px;
+	height: auto;
+	z-index: 100;
+	background-image: url("images/beachgirls.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	animation: girlsUp 10s ease-in-out 1 infinite;
+}
+
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -329,8 +343,13 @@ article {
 	}
 }
 
-		
-
-
-
-	
+@keyframes girlsUp {
+	from {
+		transform: translateY(400px);
+		opacity: .8;
+	}
+	to {
+		transform: translateY(-100px);
+		opacity: 1;
+	}
+}
