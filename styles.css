@@ -205,7 +205,7 @@ html {
 	right: -200px;
 	width: 120px;
 	height: 300px;
-	z-index: -2;
+	z-index: 100;
 	background-image: url("images/beachball.png");
 	background-repeat: no-repeat;
 	background-size: contain;
