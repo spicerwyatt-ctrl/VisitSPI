@@ -183,6 +183,7 @@ html {
 	background-size: contain;
 	background-position: center;
 	animation: bottleFly 12s linear infinite;
+	background-color: rgba(225,0,0,0.5);
 }
 	
 h3 {
