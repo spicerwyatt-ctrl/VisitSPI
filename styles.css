@@ -185,6 +185,20 @@ html {
 	animation: bottleFly 3.7s linear infinite;
 }
 
+#plane {
+	position: fixed;
+	top: 250px;
+	left: -200px;
+	width: 120px;
+	height: 300px;
+	z-index: -6;
+	background-image: url("images/airplane.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	animation: planeFly 3.7s linear infinite;
+}
+
 #bird {
 	position: fixed;
 	top: 1px;
@@ -444,6 +458,15 @@ article {
 }
 
 @keyframes bottleFly {
+	from {
+		transform: translate X(0) rotate(0deg);
+	}
+	to {
+		transform: translateX(2300px) rotate(1080deg);
+	}
+}
+
+@keyframes planeFly {
 	from {
 		transform: translate X(0) rotate(0deg);
 	}
