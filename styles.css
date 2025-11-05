@@ -169,6 +169,8 @@ html {
 	background-size: contain;
 	background-position: center;
 	animation: umbrellaFly 12s linear infinite;
+}
+	
 h3 {
 	font-family: "Berkshire Swash";
 }
@@ -390,12 +392,12 @@ article {
 	}
 }
 
-@keyframes umbrellaFly (
+@keyframes umbrellaFly {
 	from {
-		transform: translareX(0);
+		transform: translateX(0);
 	}
 	to {
-		transform: translateX(-3000px)
+		transform: translateX(-3000px);
 	}
 }
 
