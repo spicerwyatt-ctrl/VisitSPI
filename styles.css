@@ -189,8 +189,8 @@ html {
 	position: fixed;
 	top: -150px;
 	left: -200px;
-	width: 360px;
-	height: 900px;
+	width: 240px;
+	height: 600px;
 	z-index: 4;
 	background-image: url("images/airplane.webp");
 	background-repeat: no-repeat;
