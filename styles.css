@@ -163,6 +163,7 @@ html {
 	width: 150px;
 	height: auto;
 	z-index: 200;
+	background-image: url("images/bottle.png");
 	display: block;
 	margin: 30px auto;
 	animation: spinBottle 3s ease-in-out infinite;
