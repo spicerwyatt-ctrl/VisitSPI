@@ -466,7 +466,7 @@ article {
 		transform: translateX(0) rotate(0deg);
 	}
 	to {
-		transform: translateX(-3000px) rotate(-1080deg);
+		transform: translateX(3000px) rotate(-1080deg);
 	}
 }
 
