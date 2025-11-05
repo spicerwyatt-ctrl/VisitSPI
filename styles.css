@@ -162,6 +162,7 @@ html {
 	position: absolute;
 	width: 150px;
 	height: auto;
+	z-index: -5;
 	display: block;
 	margin: 30px auto;
 	animation: spinBottle 3s ease-in-out infinite;
