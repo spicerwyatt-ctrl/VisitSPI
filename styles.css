@@ -415,7 +415,7 @@ article {
 	}
 }
 
-@keyframes spinBottle {
+@keyframes bottleFly {
 	from {
 		transform: translate X(0) rotate(0deg);
 	}
