@@ -132,7 +132,7 @@ html {
 
 #girls {
 	position: fixed;
-	bottom: -190;
+	bottom: -190px;
 	right: 50px;
 	width: 600px;
 	height: 420px;
@@ -142,6 +142,8 @@ html {
 	background-size: contain;
 	background-position: bottom;
 	animation: girlsUp 10s ease-in-out infinite;
+	animate-direction: alternate;
+	background-color: rgba(255,0,0,.2);
 }
 
 h3 {
